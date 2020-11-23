@@ -7,8 +7,9 @@
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",
-    "lint": "eslint --ignore-path .gitignore . --fix",
+    "lint:fix": "eslint --ignore-path .gitignore . --fix",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "lint": "yarn lint:fix && yarn format",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
