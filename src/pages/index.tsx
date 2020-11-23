@@ -1,8 +1,8 @@
-import React from "react"
+import React, { FC } from "react"
 
 import Layout from "../layouts/layout"
 
-const IndexPage = () => {
+const IndexPage: FC = () => {
   return (
     <Layout>
       <section className="text-center flex">
